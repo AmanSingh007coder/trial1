@@ -1,7 +1,241 @@
-.box1{
-    height:150px;
-    width:200px;
-    background-color: rgb(0, 0, 0);
-    color:rgb(212, 69, 69);
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+header{ 
+    background-color:  rgb(13, 13, 236);
+    color: white;
+    height: 60px;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 70px;
+}
+div img{
+    width:88px;
+}
+nav ul{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height:60px;
+}
+nav ul li{
+   list-style: none;
+   padding-right: 90px;
+}
+
+nav ul li a{
+   text-decoration: none;  
+   color: white;   
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 0,10px,0,30px;
+}
+#searchbar{
+    height: 30px;
+    width: 400px;
+    border-radius: 4px;
+    padding-left: 7px;
+
+}
+.searchflipkart{
+    height:28px;
+    width:60px;
+    color:white;
+    background-color:rgb(13, 13, 236) ;
+    margin-left: 10px;
+    border: 2px solid rgba(5, 16, 175, 0.575);
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+.searchflipkart:hover{
+    border:2px solid white;
+    font-weight: bolder;
+}
+
+.container{
+    height:950px;
+    background-color: cornflowerblue;
+}
+.slider{
+    height:300px;
+    background-color: black;
+    background-image: url("slider2.jpg");
+    background-size:cover;
+    margin-top: 2px;
+}
+.shopsection{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+}
+.box{
+    height:250px;
+    background-color:whitesmoke;
+    width:20%;
+    margin-top: 30px;
+    padding:15px;
+}
+
+.boximg1{
+    height:190px;
+    background-image:url("gadgets.jpg");
+    background-size: cover;
+}
+.box1 a{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.box1 h3{
+    padding-bottom: 17px;
+}
+
+
+.boximg2{
+    height:190px;
+    background-image:url("fashion.jpg");
+    background-size: cover;
+}
+.box2 a{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.box2 h3{
+    padding-bottom: 17px;
+}
+
+
+.boximg3{
+    height:190px;
+    background-image:url("beauty.jpg");
+    background-size: cover;
+}
+.box3 a{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.box3 h3{
+    padding-bottom: 17px;
+}
+
+
+.boximg4{
+    height:190px;
+    background-image:url("sports.jpg");
+    background-size: cover;
+}
+.box4 a{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.box4 h3{
+    padding-bottom: 17px;
+}
+
+
+.boximg5{
+    height:190px;
+    background-image:url("grocery.jpg");
+    background-size: cover;
+}
+.box5 a{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.box5 h3{
+    padding-bottom: 17px;
+}
+
+
+.boximg6{
+    height:190px;
+    background-image:url("health.jpg");
+    background-size: cover;
+}
+.box6 a{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.box6 h3{
+    padding-bottom: 17px;
+}
+
+
+.boximg7{
+    height:190px;
+    background-image:url("women.jpg");
+    background-size: cover;
+}
+.box7 a{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.box7 h3{
+    padding-bottom: 17px;
+}
+
+
+.boximg8{
+    height:190px;
+    background-image:url("books.jpg");
+    background-size: cover;
+    padding-bottom: 7px;
+}
+.box8 a{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.box8 h3{
+    padding-bottom: 17px;
+}
+
+
+.copyrights{
+    display: flex;
+    height:40px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footpanel{
+    display:flex;
+    justify-content: space-evenly;
+    height:250px;
+    background-color:rgba(18, 18, 248, 0.884);
+    color:white;
+}
+.footpanel ul{
+    margin-top: 50px;
+    list-style: none;
+    
+}
+.footpanel ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: bottom 5px;
+
+}
+
+ 
+li h4{
+    margin-bottom: 20px;
+}
